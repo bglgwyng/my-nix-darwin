@@ -16,17 +16,17 @@
           [
             pkgs.nil
             pkgs.nixpkgs-fmt
+            pkgs.nix-tree
+            # 
             pkgs.git
+            pkgs.difftastic
+            # 
             pkgs.nodejs_24
           ];
 
         nix = {
           enable = true;
-          settings.experimental-features = "nix-command flakes";
-          settings.extra-substituters = [ "https://cache.iog.io" ];
-          settings.extra-trusted-public-keys = [
-            "cache.iog.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ="
-          ];
+          settings.experimental-features = [ "nix-command" "flakes" ];
         };
 
         programs.direnv = {
