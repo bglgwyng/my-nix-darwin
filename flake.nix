@@ -27,7 +27,12 @@
         nix = {
           enable = true;
           settings.experimental-features = [ "nix-command" "flakes" ];
+          registry = {
+            nixpkgs.flake = nixpkgs;
+          };
         };
+
+        nixpkgs.config.allowBroken = true;
 
         programs.direnv = {
           enable = true;
