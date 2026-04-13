@@ -42,11 +42,7 @@
             clang
             pnpm
             #
-            zed-editor
-            #
             wireguard-tools
-            #
-            ghostty-bin
             #
             devenv
           ];

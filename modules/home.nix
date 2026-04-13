@@ -15,6 +15,10 @@
       git.enable = true;
     };
     zed-editor.enable = true;
+    ghostty = {
+      enable = true;
+      package = pkgs.ghostty-bin;
+    };
   };
 
   home.shellAliases = {
