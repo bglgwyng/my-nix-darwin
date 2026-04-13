@@ -32,8 +32,6 @@
             nixpkgs-fmt
             nix-tree
             #
-            lazygit
-            #
             nodejs_24
             node-gyp
             gcc

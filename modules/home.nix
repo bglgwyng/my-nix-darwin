@@ -10,6 +10,10 @@
         email = "bgl@gwyng.com";
       };
     };
+    lazygit = {
+      enable = true;
+      enableZshIntegration = true;
+    };
     difftastic = {
       enable = true;
       git.enable = true;
