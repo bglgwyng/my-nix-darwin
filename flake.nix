@@ -96,7 +96,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.bglgwyng = ./home.nix;
+            home-manager.users.bglgwyng = ./modules/home.nix;
 
             # Optionally, use home-manager.extraSpecialArgs to pass
             # arguments to home.nix

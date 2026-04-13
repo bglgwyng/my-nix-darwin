@@ -1,6 +1,6 @@
 { pkgs, lib, ... }:
 {
-  imports = [ ./zsh.nix ];
+  imports = [ ./zsh ];
 
   programs = {
     git = {
