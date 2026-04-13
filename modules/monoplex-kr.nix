@@ -7,4 +7,7 @@
       hash = "sha256-gGmFrXrMUosTTFKLq20BETa3yUEyhFKA2h7UC8pFmWE=";
     })
   ];
+  home-manager.users.bglgwyng.programs = {
+    ghostty.settings.font-family = "Monoplex KR Nerd";
+  };
 }
