@@ -32,8 +32,6 @@
             nixpkgs-fmt
             nix-tree
             #
-            # git
-            difftastic
             lazygit
             #
             nodejs_24
