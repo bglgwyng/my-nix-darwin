@@ -14,6 +14,7 @@
       enable = true;
       git.enable = true;
     };
+    zed-editor.enable = true;
   };
 
   home.shellAliases = {
